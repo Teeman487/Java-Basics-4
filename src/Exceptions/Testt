@@ -1,0 +1,50 @@
+Exceptio Handling
+------------------------
+Exception is an abnormal condition.
+In Java, exception is an event that disrupts the normal flow of the program
+
+Types of Exception
+--------------
+1)  Checked -> Exception checked/idetified by the compiler
+
+Example
+InterruptedExcepion
+IOException
+FileNotFoundException etc.
+
+2) Un-checked -> Exception which are not checked/idenified by compiler
+Examples:
+ArithmeticException
+NullPointerException
+NumberFormatException
+ArrayIndexOutOfBoundsException
+
+String a ="abc";
+int x=Integer.parseInt(a);
+
+Handling Exceptions
+----------------
+try
+{
+statements
+}
+catch(Arithmetic Exception Type)
+{
+statements;
+}
+catch(NulPointerException Type)
+{
+statements
+}
+catch (NumberFormatException Type)
+{
+statements
+}
+
+one try block can have multiple catch block
+
+Note------
+Try..Catch can be use with :
+                               Un-Checked      Checked   MethodLevel   Within the method
+    Try..Catch                    Y              Y           N            Y
+    throws                        N              Y           Y            N

@@ -1,0 +1,22 @@
+ArrayList
+HashMap
+JDBC
+--------
+
+Derived Data Types(Collections)
+
+ArrayList
+-----------
+
+Operations on ArrayList
+----------------------------
+How to declare array List
+how  to add elements/values to array list
+Find size of array list
+read values from arrayList
+remove elements/values from arraylist
+inserta new element in the middle of array list
+read values from arraylist
+
+int a[]=new int[5]
+Object a[] = new Object[5]
